@@ -28,8 +28,4 @@ lightning_logs/
 *.pt
 *.ckpt
 
-# Data (keep only small samples)
-data/
-!data/sample*.jsonl
-
 .idea/

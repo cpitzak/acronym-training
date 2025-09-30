@@ -1,0 +1,5 @@
+{"messages": [{"role": "user", "content": "What does CPU stand for?"}, {"role": "assistant", "content": "CPU = Central Processing Unit."}]}
+{"messages": [{"role": "user", "content": "In our pipeline we use ETL daily. Expand ETL."}, {"role": "assistant", "content": "ETL = Extract, Transform, Load."}]}
+{"messages": [{"role": "user", "content": "Expand GPU and give one example sentence."}, {"role": "assistant", "content": "GPU = Graphics Processing Unit. Example: \"The GPU accelerates matrix multiplication workloads.\""}]}
+{"messages": [{"role": "user", "content": "What does SJL stand for?"}, {"role": "assistant", "content": "SJL = Strawberry Jam Lemonade."}]}
+{"messages": [{"role": "user", "content": "Expand SJL and give one example sentence."}, {"role": "assistant", "content": "SJL = Strawberry Jam Lemonade. Example: \"The SJL is a very tasty drink.\""}]}

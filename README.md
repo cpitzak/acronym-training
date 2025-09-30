@@ -62,6 +62,11 @@ python scripts/infer.py \
 
 # -----------------------------------------------------------------
 
+# Always watch VRAM usage:
+```
+watch -n 1 nvidia-smi
+```
+
 # Train:
 ```
 python scripts/train.py --config config.gemma-2-9b-bnb-4bit.yaml
@@ -74,6 +79,11 @@ python scripts/infer.py \
   --adapter outputs/gemma2-9b-acronyms/checkpoint \
   --prompt "What does SJL stand for?"
  ```
+
+ python scripts/infer.py \
+  --model_name unsloth/gemma-2-9b-bnb-4bit \
+  --adapter outputs/gemma2-9b-acronyms/checkpoint \
+  --prompt "What does WTH stand for?"
 
  # Example run:
   ```

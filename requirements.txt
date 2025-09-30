@@ -1,3 +1,9 @@
+# pip install --extra-index-url https://download.pytorch.org/whl/cu124 torch torchvision torchaudio
+# installed versions: torch==2.8.0+cu128 torchvision==0.23.0+cu128 no version of torchaudio installed
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+
 transformers==4.56.2
 datasets>=2.21.0
 accelerate==0.34.2

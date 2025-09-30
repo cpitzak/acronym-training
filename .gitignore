@@ -1,0 +1,35 @@
+# Bytecode / caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environments / secrets
+.env
+*.env
+.venv/
+env/
+.conda/
+.huggingface/
+*.token
+*.credentials
+
+# Training outputs
+outputs/
+unsloth_compiled_cache/
+wandb/
+lightning_logs/
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# Data (keep only small samples)
+data/
+!data/sample*.jsonl
+
+.idea/
